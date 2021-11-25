@@ -1,0 +1,28 @@
+body {
+  background-image: url(blackboard-1846865_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.calculator {
+  border: 1px solid black;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 550px;
+  background-color: rgb(85, 79, 79);
+}
+
+#output {
+  width: 96.5%;
+  height: 120px;
+  border: none;
+  background-color: black;
+  color: aliceblue;
+  margin-left: 10px;
+  padding-right: 20px;
+  font-size: 2rem;
+}
